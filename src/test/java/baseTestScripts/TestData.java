@@ -5,7 +5,7 @@ public class TestData {
 	// Data should not be manipulated in any case
 	public static final String WMS_url = "https://wmstest.php.fmv.cc/signin";
 	public static final String WMS_HomepageTitle = "WMS- Admin Dashboard";
-	public static final String driver_location = "E:\\workspace\\Magento_Automation\\src\\main\\resources\\chromedriver.exe";
+	public static final String driver_location = "C:\\Users\\Lenovo\\Documents\\GitHub\\wms\\resources\\chromedriver.exe";
 	public static final String email = "abhijeet@elsner.in";
 	public static final String password = "Test@123";
 	public static final String user_fullname = "Automation User";

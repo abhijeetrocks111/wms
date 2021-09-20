@@ -221,12 +221,12 @@
       <![CDATA[STEP - *** Test execution testVerifyTier1DashboardLinks failed...]]>
     </line>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="189677" started-at="2021-09-20T07:21:03Z" finished-at="2021-09-20T07:24:13Z">
+  <suite name="TestSuite" duration-ms="198313" started-at="2021-09-20T09:34:33Z" finished-at="2021-09-20T09:37:51Z">
     <groups>
     </groups>
-    <test name="Tests" duration-ms="189677" started-at="2021-09-20T07:21:03Z" finished-at="2021-09-20T07:24:13Z">
+    <test name="Tests" duration-ms="198313" started-at="2021-09-20T09:34:33Z" finished-at="2021-09-20T09:37:51Z">
       <class name="tests.wms.TestHomePage">
-        <test-method status="FAIL" signature="testCustomerLogIn()[pri:0, instance:tests.wms.TestHomePage@2ef9b8bc]" name="testCustomerLogIn" duration-ms="88002" started-at="2021-09-20T07:21:03Z" finished-at="2021-09-20T07:22:31Z">
+        <test-method status="FAIL" signature="testCustomerLogIn()[pri:0, instance:tests.wms.TestHomePage@2ef9b8bc]" name="testCustomerLogIn" duration-ms="93398" started-at="2021-09-20T09:34:33Z" finished-at="2021-09-20T09:36:06Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .error' (tried for 10 second(s) with 500 milliseconds interval)]]>
@@ -271,8 +271,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0KBR3DP', ip: '192.168.239.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58394}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 299a659ce9d55794ea5a2c21f6b4c15c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 06aa4519ed07aafe3c390d709aeea977
 *** Element info: {Using=css selector, value=.error}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -372,7 +372,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
             </line>
           </reporter-output>
         </test-method> <!-- testCustomerLogIn -->
-        <test-method status="PASS" signature="testForgotPassword()[pri:0, instance:tests.wms.TestHomePage@2ef9b8bc]" name="testForgotPassword" duration-ms="13385" started-at="2021-09-20T07:22:31Z" finished-at="2021-09-20T07:22:45Z">
+        <test-method status="PASS" signature="testForgotPassword()[pri:0, instance:tests.wms.TestHomePage@2ef9b8bc]" name="testForgotPassword" duration-ms="14598" started-at="2021-09-20T09:36:06Z" finished-at="2021-09-20T09:36:21Z">
           <reporter-output>
             <line>
               <![CDATA[STEP - *** Running test method testForgotPassword...]]>
@@ -445,7 +445,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
             </line>
           </reporter-output>
         </test-method> <!-- testForgotPassword -->
-        <test-method status="FAIL" signature="testTier1UserProfileSection()[pri:0, instance:tests.wms.TestHomePage@2ef9b8bc]" name="testTier1UserProfileSection" duration-ms="43374" started-at="2021-09-20T07:22:45Z" finished-at="2021-09-20T07:23:28Z">
+        <test-method status="FAIL" signature="testTier1UserProfileSection()[pri:0, instance:tests.wms.TestHomePage@2ef9b8bc]" name="testTier1UserProfileSection" duration-ms="48400" started-at="2021-09-20T09:36:21Z" finished-at="2021-09-20T09:37:09Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"span.gx-avatar-name"}
@@ -454,8 +454,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0KBR3DP', ip: '192.168.239.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a0c3ab879064b9951bc52d4f66381bb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2c1e3bc88ebc6a3f87912e6956cc28e
 *** Element info: {Using=css selector, value=span.gx-avatar-name}]]>
             </message>
             <full-stacktrace>
@@ -465,8 +465,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0KBR3DP', ip: '192.168.239.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a0c3ab879064b9951bc52d4f66381bb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2c1e3bc88ebc6a3f87912e6956cc28e
 *** Element info: {Using=css selector, value=span.gx-avatar-name}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -560,7 +560,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
             </line>
           </reporter-output>
         </test-method> <!-- testTier1UserProfileSection -->
-        <test-method status="FAIL" signature="testVerifyTier1DashboardLinks()[pri:0, instance:tests.wms.TestHomePage@2ef9b8bc]" name="testVerifyTier1DashboardLinks" duration-ms="44880" started-at="2021-09-20T07:23:28Z" finished-at="2021-09-20T07:24:13Z">
+        <test-method status="FAIL" signature="testVerifyTier1DashboardLinks()[pri:0, instance:tests.wms.TestHomePage@2ef9b8bc]" name="testVerifyTier1DashboardLinks" duration-ms="41875" started-at="2021-09-20T09:37:09Z" finished-at="2021-09-20T09:37:51Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"span.gx-avatar-name"}
@@ -569,8 +569,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0KBR3DP', ip: '192.168.239.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9a4b2aad4d27c695754ca516755ecc05
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 030ba967525bcc4ddbb769655f452866
 *** Element info: {Using=css selector, value=span.gx-avatar-name}]]>
             </message>
             <full-stacktrace>
@@ -580,8 +580,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0KBR3DP', ip: '192.168.239.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9a4b2aad4d27c695754ca516755ecc05
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 030ba967525bcc4ddbb769655f452866
 *** Element info: {Using=css selector, value=span.gx-avatar-name}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
